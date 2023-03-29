@@ -59,7 +59,7 @@ def gen_club_id_and_write_to_redis(club_id_dict):
     print(">>> 写入亲友圈 Id 到 Redis <<<")
 
     # 开启 Redis
-    redis_cache = redis.Redis(host = "127.0.0.1", port = 6379, password = "root")
+    redis_cache = redis.Redis(host = "127.0.0.1", port = 6379)
     redis_cache.delete(REDIS_KEY)
 
     # 获取 Redis PipeLine

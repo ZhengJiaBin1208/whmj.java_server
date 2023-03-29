@@ -8,15 +8,13 @@
         "cache": {
             "serverHost": "127.0.0.1",
             "serverPort": 6379,
-            "dbIndex": 0,
-            "password": "root"
+            "dbIndex": 0
         },
 
         "pubsub": {
             "serverHost": "127.0.0.1",
             "serverPort": 6379,
-            "dbIndex": 0,
-            "password": "root"
+            "dbIndex": 0
         }
     }
 }

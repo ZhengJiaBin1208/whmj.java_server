@@ -15,7 +15,7 @@ public final class Config {
     }
 
     static void init() {
-        JSONObject joProxyServerConf;
+        JSONObject joProxyServerConf = null;
 
         if (joProxyServerConf.containsKey("ukeyConf")) {
             JSONObject joConf = joProxyServerConf.getJSONObject("ukeyConf");
