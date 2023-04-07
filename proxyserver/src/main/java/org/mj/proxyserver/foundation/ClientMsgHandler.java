@@ -61,6 +61,7 @@ public class ClientMsgHandler extends ChannelDuplexHandler {
 
         ChannelHandler[] hArray = {
             new ClientMsgDecoder(),
+                // 服务端给客户端发送消息
             new ClientMsgEncoder(),
             new PingCmdHandler(),
             new ReconnCmdHandler(),
